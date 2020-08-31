@@ -17,7 +17,7 @@ It is quite likely that additional actions may be available to be performed on p
 The responsibilities of a payment method module include the following main points:
 
 <ol>
-<li>Defining the payment method via hook_commerce_payment_method_info(). This hook is <a href="/developer-guide/core-architecture/info-hooks/payment-info-hooks">documented in the specification</a> and allows you to define the titles and display name for the payment method along with various callback functions used to integrate with the payment system.</li>
+<li>Defining the payment method via hook_commerce_payment_method_info(). This hook is <a href="/commerce1/developer-guide/core-architecture/info-hooks/payment-info-hooks">documented in the specification</a> and allows you to define the titles and display name for the payment method along with various callback functions used to integrate with the payment system.</li>
 <li>Defining your callback functions to add a settings form to the payment method's rules, collect the necessary information on the checkout and administrative payment forms, and accommodate the redirection process for off-site payment methods (see below).</li>
 <li>Integrating with the payment service to actually process payments, validate payment notifications, and otherwise interact with the available APIs.</li>
 <li>Defining menu items for additional payment transaction operations and providing the forms and API integration necessary to perform the operations.</li>
